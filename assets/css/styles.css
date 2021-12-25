@@ -29,6 +29,23 @@ header {
     z-index: 1000;
 }
 
+intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
 /* Container */
 .container {
     width: 100%;
@@ -66,15 +83,6 @@ header {
 }
 
 /* Intro */
-.intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    width: 100%;
-    height: 100vh;
-}
-
 .intro_inner {
     width: 100%;
     max-width: 800px;
@@ -114,4 +122,23 @@ header {
 .bio_image {
     display: flex;
     justify-content: center;
+}
+
+/* Footer */
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_element {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+
+    cursor: pointer;
+    transition: color .2s linear;
+}
+
+.footer_element:hover {
+    color: rgb(0, 0, 0);
 }
