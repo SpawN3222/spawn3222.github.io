@@ -122,6 +122,7 @@ footer {
 .bio_image {
     display: flex;
     justify-content: center;
+    margin-right: 120px;
 }
 
 /* Footer */
