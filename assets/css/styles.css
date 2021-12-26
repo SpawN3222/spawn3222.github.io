@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* For gradient */
+/*! For gradient */
 html, body {
     height: 100%;
 }
@@ -46,14 +46,14 @@ footer {
     z-index: 1;
 }
 
-/* Container */
+/*! Container */
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Header */
+/*! Header */
 .header-inner {
     display: flex;
     justify-content: space-between;
@@ -66,7 +66,7 @@ footer {
     color: rgb(255, 255, 255);
 }
 
-/* Nav */
+/*! Nav */
 .nav_link {
     display: inline-block;
     vertical-align: top;
@@ -82,7 +82,7 @@ footer {
     color: rgb(0, 0, 0);
 }
 
-/* Intro */
+/*! Intro */
 .intro_inner {
     width: 100%;
     max-width: 800px;
@@ -112,7 +112,7 @@ footer {
     justify-content: space-between;
 }
 
-/* Bio */
+/*! Bio */
 .bio_text {
     display: flex;
     max-width: 50%;
@@ -125,7 +125,7 @@ footer {
     margin-right: 120px;
 }
 
-/* Footer */
+/*! Footer */
 .footer_inner {
     display: flex;
     justify-content: space-between;
