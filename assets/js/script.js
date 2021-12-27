@@ -15,3 +15,7 @@ function copy(text, element) {
       element.classList.toggle('active');
     }, 2000)
 }
+
+function rofl(element) {
+  element.classList.toggle('active');
+}

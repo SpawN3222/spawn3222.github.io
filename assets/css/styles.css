@@ -120,7 +120,16 @@ footer {
 .bio_image {
     display: flex;
     justify-content: center;
-    /* margin-right: 120px; */
+}
+
+.bio_image img {
+    height: 315px;
+    transform: scale(1) rotate(0deg);
+    transition: 1s ease-in-out;
+}
+
+.bio_image.active img {
+    transform: scale(10) rotate(3600deg);
 }
 
 /*! Footer */
@@ -138,6 +147,7 @@ footer {
 
     cursor: pointer;
     transition: color .2s linear;
+    width: fit-content;
 }
 
 .footer_element a {
@@ -152,7 +162,7 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 60px;
+    right: 0px;
     font-size: 14px;
     background-color: #000000;
     color: #f54443;
@@ -179,7 +189,7 @@ footer {
   }
   
 .footer_element.active .tooltip {
-    right: 40px;
+    right: -85px;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
