@@ -123,9 +123,9 @@ footer {
 }
 
 .bio_image img {
-    height: 315px;
     transform: scale(1) rotate(0deg);
     transition: 1s ease-in-out;
+    width: 100%;
 }
 
 .bio_image.active img {

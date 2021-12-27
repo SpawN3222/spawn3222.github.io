@@ -78,6 +78,11 @@
         margin: 0 auto;
     }
 
+    .bio_image img {
+        height: 315px;
+        width: unset;
+    }
+
     .footer_inner {
         flex-direction: row;
     }
