@@ -1,3 +1,4 @@
+/*! Tags*/
 * {
     margin: 0;
     padding: 0;
@@ -110,11 +111,41 @@ footer {
     align-items: center;
 }
 
-/*! Bio */
+/*! Intro -> Bio */
 .bio_text {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+}
+
+.bio_text ul {
+    margin: 10px 0 10px 25px;
+    list-style-type: disc;
+    list-style-image: url(' ');
+    list-style-position: outside;
+} 
+
+.bio_text li { 
+    color:rgb(255,255,255);
+    padding: 0px; 
+    margin: 0px; 
+
+    transition: color .2s linear;
+}
+
+.bio_text li:hover{ 
+    color:rgb(0, 0, 0)
+}
+
+.bio_text_link {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+.bio_text_link:hover {
+    color:rgb(0, 0, 0);
 }
 
 .bio_image {
